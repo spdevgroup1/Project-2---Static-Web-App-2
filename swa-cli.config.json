@@ -1,0 +1,9 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "project-2---static-web-app-2": {
+      "appLocation": ".",
+      "outputLocation": "."
+    }
+  }
+}

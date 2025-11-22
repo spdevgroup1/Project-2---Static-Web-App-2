@@ -1,0 +1,28 @@
+Power App - DevOps - Flow - DevOps HTTP API end point. Power Platform Support advice 
+
+
+Step-by-Step Approach:
+
+Trigger the Flow:
+
+Choose a trigger, such as a scheduled time or when a new file is created or modified in a connected service.
+Get the File Content:
+
+Use the "Get File Content" action to read the current content of the .txt file. If the file is stored in a supported service like OneDrive or SharePoint, this is straightforward. For Azure DevOps, you may need to use an HTTP action to call the Azure DevOps REST API to retrieve the file content.
+Modify the Text:
+
+Use a "Compose" action or similar to patch or update the text as needed.
+Update the File:
+
+Use the "Write text to file" or "Update File" action to overwrite or append the new content to the .txt file. For Azure DevOps, this may require another HTTP action to push the updated file back using the Azure DevOps REST API.
+Key Considerations:
+
+Power Automate natively supports file actions for SharePoint and OneDrive, not direct network locations or Azure DevOps repositories. For Azure DevOps, you will likely need to use HTTP actions to interact with the Azure DevOps REST API.
+Ensure you have the necessary permissions and authentication set up for API calls.
+If you need to monitor a folder for new files, use the "Get files in folder" or "If file exists" actions as part of your logic1​2.
+Example Actions:
+
+Use "Read text from file" to get content.
+Use "Write text to file" to update content.
+For Azure DevOps, use HTTP actions to GET and PUT file content via the API1​2.
+Summary: While Power Automate does not provide a direct built-in action for updating files in Azure DevOps, you can achieve this by combining file actions with HTTP requests to the Azure DevOps REST API, following the general pattern of reading, modifying, and updating the file content1​2.

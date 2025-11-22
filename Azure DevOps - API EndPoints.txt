@@ -1,0 +1,57 @@
+POST 
+
+POST https://dev.azure.com/{organization}/{project}/_apis/serviceendpoint/endpoints?api-version=7.1-preview.1
+
+https://dev.azure.com/spdevgroup/StaticApp2/_apis/serviceendpoint/endpoints?api-version=7.1-preview.1
+https://dev.azure.com/spdevgroup/staticapp2/_apis/serviceendpoint/endpoints?api-version=7.1-preview.1
+
+
+ORGANISATION: spdevgroup
+
+PROJECT: StaticApp2
+
+connection
+
+spdevgroup
+StaticApp2
+Settings
+Project Settings
+Settings
+Service Connections
+
+**Connection via
+-Azure Resource Manager
+Connection Name: StaticAppConnnection2
+ID: d8834008-d4b9-44c9-ae3f-57424fdc5e7a
+
+**Checks
+-Invoke REST API (PUT)
+
+Other Notes
+
+Workload Identity federation details
+Issuer:
+https://login.microsoftonline.com/3ee7d09d-11a2-4004-979f-425890c9edc5/v2.0
+Subject identifier:
+/eid1/c/pub/t/ndDnPqIRBECXn0JYkMntxQ/a/rISbSSETf0KqFyZ8ppdXmA/sc/213f5345-872a-4abc-9e90-b3a4b36c92b7/d8834008-d4b9-44c9-ae3f-57424fdc5e7a
+
+
+
+THINGS TO CONSIDER WHEN MAKING CONNECTIONS
+
+AZURE STATIC APP
+
+API PERMISSIONS settings
+Expose an API
+Roles and Administrators
+Branding and Publishing
+Integration Assistant
+
+
+==========================================
+INFO ON CMD PROMPT ACTIONS REQUIRED IN THIS PROCESS
+
+https://learn.microsoft.com/en-us/azure/static-web-apps/database-configuration#configuration
+
+
+=============================================

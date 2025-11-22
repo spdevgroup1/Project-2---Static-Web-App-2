@@ -1,0 +1,43 @@
+SQL Authentication String
+
+https://learn.microsoft.com/en-us/azure/static-web-apps/database-azure-sql?tabs=bash&pivots=static-web-apps-rest
+
+export DATABASE_CONNECTION_STRING=
+'<Server=tcp:spdevgroup1-server.database.windows.net,1433;Initial Catalog=spdevgroup1-db;Persist Security Info=False;User ID=CloudSA93d2a75a;Password={q1e3t5u7//};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;>'
+
+
+export DATABASE_CONNECTION_STRING=
+'<Server=tcp:spdevgroup1-server.database.windows.net,1433;Initial Catalog=spdevgroup1-db;Persist Security Info=False;User ID=CloudSA93d2a75a;Password={q1e3t5u7//};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;>'
+
+
+export DATABASE_CONNECTION_STRING=
+'Server=tcp:spdevgroup1-server.database.windows.net,1433;Initial Catalog=spdevgroup1-db;Persist Security Info=False;User ID=CloudSA93d2a75a;Password={q1e3t5u7//};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+
+
+$env:DATABASE_CONNECTION_STRING='Server=tcp:spdevgroup1-server.database.windows.net,1433;Initial Catalog=spdevgroup1-db;Persist Security Info=False;User ID=CloudSA93d2a75a;Password={q1e3t5u7//};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+
+
+=============================================
+https://learn.microsoft.com/en-us/azure/data-api-builder/overview
+=============================================
+
+=============================================
+
+MICROSOFT Data Api Builder
+INSTALLATION "CLI" ON LOCAL MACHINE
+
+https://learn.microsoft.com/en-us/azure/data-api-builder/command-line/install
+
+=============================================
+
+Data API builder documentation
+
+https://learn.microsoft.com/en-us/azure/data-api-builder/
+
+
+
+
+=============================================
+
+Data API builder (Omnibus)
+https://marketplace.visualstudio.com/items?itemName=jerry-nixon.omnibus-data-api-builder
